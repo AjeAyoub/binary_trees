@@ -4,7 +4,7 @@
  * binary_tree_node Create binary node
  * @parent: node parent
  * @value: Value of node
- * Return: new node
+ * Return: new node .
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
