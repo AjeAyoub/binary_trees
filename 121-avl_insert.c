@@ -6,7 +6,6 @@
  * @value: The value of the new node.
  * Return: A pointer to the created node, otherwise NULL.
  */
- 
 bst_t *bst_insert_helper(bst_t **tree, int value)
 {
 	bst_t *new_node = NULL, *parent = NULL;

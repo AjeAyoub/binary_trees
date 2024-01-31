@@ -6,7 +6,6 @@
  * @value: The value of the node.
  * Return: A pointer to the found node, otherwise NULL.
  */
- 
 bst_t *find_node(bst_t *root, int value)
 {
 	bst_t *node = NULL;

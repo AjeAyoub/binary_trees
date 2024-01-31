@@ -7,7 +7,6 @@
  * @size: The length of the given array.
  * Return: A pointer to the root of thhe AVL tree, otherwise NULL.
  */
- 
 avl_t *tree_builder(avl_t *parent, int *array, int size)
 {
 	int *array_l = NULL, *array_r = NULL;

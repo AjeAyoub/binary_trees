@@ -8,7 +8,6 @@
  * Return: 1 if tree is NULL means its a BST
  *	   0 if its not BST
  */
- 
 int helper(const binary_tree_t *tree, int min, int max)
 {
 	if (!tree)

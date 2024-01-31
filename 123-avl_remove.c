@@ -5,7 +5,6 @@
  * @node: tree to query
  * Return: node with the smallest value
  */
- 
 static bst_t *smallest(bst_t *node)
 {
 	if (node == NULL)

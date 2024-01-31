@@ -9,7 +9,6 @@
  * Return: a pointer to the root node of the created BST,
  *	   or NULL on failure
  */
- 
 bst_t *array_to_bst(int *array, size_t size)
 {
 	size_t i = 1;
